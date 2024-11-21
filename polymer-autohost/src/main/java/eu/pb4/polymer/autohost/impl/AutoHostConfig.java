@@ -19,7 +19,7 @@ public class AutoHostConfig {
     @SerializedName("required")
     public boolean require = false;
     public String _c3 = "Mods may override the above setting and make the resource pack required, set this to false to disable that.";
-    @SerializedName("modOverride")
+    @SerializedName("mod_override")
     public boolean modOverride = true;
     public String _c4 = "Type of resource pack provider. Default: 'polymer:automatic'";
     public String type = "polymer:automatic";
